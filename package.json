@@ -1,0 +1,16 @@
+{
+  "name": "backend-work",
+  "version": "1.0.0",
+  "description": "my-first-app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Shehla",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}

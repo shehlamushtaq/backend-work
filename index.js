@@ -4,7 +4,7 @@ const app = express();
 const path = require("path");
 const bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({ extended: true }));
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 const users = [{name:'shehla',email:'shehla@dd.com',password:'123654',id:1 }];
 

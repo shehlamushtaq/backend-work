@@ -2,7 +2,7 @@
   width: 450px;
   padding: 30px;
   margin: 40px auto;
-  background: #fff;
+  background: rgb(209, 208, 216);
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -116,4 +116,55 @@
   color: #4d4d4d;
   margin-top: 10px;
   text-align: right;
+}
+body {
+  background: rgba(195, 194, 204, 0.3); /* Green background with 30% opacity */
+}
+ul {
+  list-style-type: none;
+  font: normal 15px "Bitter", serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2a88ad;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(24, 20, 20);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(241, 239, 239);
+}
+
+.active {
+  background-color: #606e70;
+  color: #fff;
+}
+
+.my-btn {
+  border: 1px solid #000;
+  background-color: #eee;
+  padding: 7px 40px;
+  border-radius: 7px;
+  width: 300px;
+  display: inline-block;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: "Bitter", serif;
+}
+
+.txt-center {
+  text-align: center;
 }

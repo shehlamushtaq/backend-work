@@ -1,5 +1,6 @@
 .form-style-10 {
-  width: 450px;
+  max-width: 450px;
+  width: calc(100% - 60px);
   padding: 30px;
   margin: 40px auto;
   background: rgb(209, 208, 216);
@@ -153,9 +154,10 @@ li a:hover:not(.active) {
 .my-btn {
   border: 1px solid #000;
   background-color: #eee;
-  padding: 7px 40px;
+  padding: 7px 5px;
   border-radius: 7px;
-  width: 300px;
+  max-width: 300px;
+  width: calc(100% - 10px);
   display: inline-block;
   text-align: center;
   color: #000;

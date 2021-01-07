@@ -60,7 +60,8 @@ app.post("/signin", (req, res) => {
     res.sendFile(path.join(__dirname, "registration", "signin_success.html"));
   } else {
     // res.send('<h1>password not matched</h1>')
-    res.redirect("/signin");
+    // res.redirect("/signin");
+    res.sendFile(path.join(__dirname, "registration", "signin_failure.html"));
   }
 });
 
